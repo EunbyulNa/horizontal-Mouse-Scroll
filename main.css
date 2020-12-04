@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.changeBg {
+  overflow: hidden;
+  position: fixed;
+  height: 100vh;
+  width: 7200px;
+}
+
+.changeBg > div {
+  width: 1440px;
+  background-color:
+}
+
+.container {
+  float: left;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+
+}
+
+.container > p {
+  text-align: center;
+ font-size: 30px;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translateX(-50%);
+}
+
+.changeBg-1 {
+   background-color: #f7e6ff;
+}
+
+
+.changeBg-2 {
+  background-color: #eeccff;
+}
+
+.changeBg-3 {
+   background-color: #e6b3ff;
+}
+
+.changeBg-4 {
+  background-color: #dd99ff;
+}
+
+.changeBg-5 {
+   background-color:  #d580ff;
+}
